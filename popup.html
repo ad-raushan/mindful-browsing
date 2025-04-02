@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Tracker</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <h1>Mindful Browsing</h1>
+    <h2>Time Spent</h2>
+    <ul id="usage-list"></ul>
+
+    <h2>Manage Categories</h2>
+    <input type="text" id="site-input" placeholder="Enter website">
+    <button id="add-unfavorable">Add to Unfavorable</button>
+    <button id="add-productive">Add to Productive</button>
+
+    <h2>Website Categories</h2>
+    <div id="category-list">
+        <h3>Unfavorable Sites</h3>
+        <ul id="unfavorable-list"></ul>
+        <h3>Productive Sites</h3>
+        <ul id="productive-list"></ul>
+        <h3>Blocked Sites</h3>
+        <ul id="blocked-list"></ul>
+    </div>
+
+    <button id="reset-data">Reset Data</button>
+    <script src="popup.js"></script>
+</body>
+</html>
